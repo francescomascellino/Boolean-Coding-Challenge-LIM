@@ -1,0 +1,92 @@
+/* Importa da google fonts il font "ubuntu" */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+/* Applica delle impostazioni di formattazione base e selezizione il font ubuntu */
+* {
+  box-sizing: border-box;
+  margin: auto;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Seleziona l'immagine di bg per l'intero html e la riadatta al contenitore. aggiunge un padding per centrare il la sezione "body" come nell'immagine di riferimento */
+html {
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  padding: 30px 360px;
+}
+
+/* Aggiunge un padding al "body" per centrare le sezioni "header", "nav" e "main" come nell'immagine di riferimento. Selezione uno sfondo nero con una trasparenza del 50%. Aggiunge un bordo arrotondato del 20% per renderlo più simile possibile alla reference */
+body {
+  padding: 100px 100px 140px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+/* Allinea il titolo e il logo e da il colore verde al font */
+header {
+  text-align: center;
+  color: #00dd00;
+}
+
+/* ridimensiona il logo */
+.logo {
+  width: 25%;
+}
+
+/* Formattazione del testo del titolo principale*/
+h1 {
+  font-size: 35px;
+  font-weight: 300;
+  font-weight: bolder;
+  margin: 5px 0px;
+}
+
+nav {
+  background-color: #00dd00;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Inserisce una spaziatura standard sopra ogni "monopattino" */
+.monopattino {
+  margin-top: 20px;
+}
+
+/* Seleziona ogni h2 e ogni p e da loro un margine superiore e colora di biancoil font */
+h2, p  {
+  color: white;
+  margin: 5px 0px;
+}
+
+/* Aggiunge un piccolo margine a sx in h2 come nell'immagine */
+h2 {
+  margin-left: 5px;
+}
+
+/* Aggiunge prima del primo p dopo h2 il carattere speciale */
+h2 + p:before {
+  content: "\21A3";
+}
+
+/* Crea le finte barre di carica residua e trasforma la proprietà "block" in "inline-block" */
+.charge {
+  padding: 15px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/* cambia il colore e la lunghezza delle barre di carica residua */
+.med {
+  background-color: #f5ba4e;
+  width: 30%;
+}
+
+.max {
+  background-color: #00dd00;;
+  width: 50%;
+}
+
+.min {
+  background-color: #f54e4e;
+  width: 10%;
+}
