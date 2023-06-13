@@ -1,51 +1,49 @@
 <!DOCTYPE html>
 <html lang="it" dir="ltr">
-<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.css" />
 
-  <head>
-    <meta charset="utf-8">
-    <title>Lim</title>
-  </head>
+	<head>
+		<meta charset="utf-8" />
+		<title>Lim</title>
+	</head>
 
-  <body>
-  <!-- Intestazione e logo -->
-	<header>
-		<img src="img/logo.png" class="logo">
-		<h1>Taking Booleaners from A to B</h1>
-	</header>
-	<!-- Barra dei comandi -->
-	<nav>
-		<button type="inviodati" name="reserve">Prenota</button>
-		<button type="inviodati" name="end">Termina Prenotazione</button>
-		<button type="inviodati" name="lights">Accendi Luci</button>
-	</nav>
-    <!-- Sezione principale che conterrà l'elenco dei monopattini -->
-    <main>
-        <!-- monopattini -->
-        <div class="monopattino">
-          <h2><input type= "checkbox"> Monopattino Gino22</h2>
-          <p> Via Guadalametri - a 220 metri da te</p>
-          <p>Stato Carica</p>
-          <div class="charge med">
-          </div>
-        </div>
+	<body>
+		<div class="container">
+			<!-- Intestazione e logo -->
+			<header>
+				<img src="img/logo.png" class="logo" />
+				<h1>Taking Booleaners from A to B</h1>
+			</header>
+			<!-- Barra dei comandi -->
+			<nav>
+				<button type="inviodati" name="reserve">Prenota</button>
+				<button type="inviodati" name="end">Termina Prenotazione</button>
+				<button type="inviodati" name="lights">Accendi Luci</button>
+			</nav>
+			<!-- Sezione principale che conterrà l'elenco dei monopattini -->
+			<div class="garage">
+				<!-- monopattini -->
+				<div class="monopattino">
+					<h2><input type="checkbox" /> Monopattino Gino22</h2>
+					<p>Via Guadalametri - a 220 metri da te</p>
+					<p>Stato Carica</p>
+					<div class="charge med"></div>
+				</div>
 
-        <div class="monopattino">
-          <h2><input type= "checkbox"> Monopattino Mike24</h2>
-          <p> Via Ricciardoni - a 420 metri da te</p>
-          <p>Stato Carica</p>
-          <div class="charge max">
-          </div>
-        </div>
+				<div class="monopattino">
+					<h2><input type="checkbox" /> Monopattino Mike24</h2>
+					<p>Via Ricciardoni - a 420 metri da te</p>
+					<p>Stato Carica</p>
+					<div class="charge max"></div>
+				</div>
 
-        <div class="monopattino">
-          <h2><input type= "checkbox"> Monopattino Fede154</h2>
-          <p> Via Mentarini - a 490 metri da te</p>
-          <p>Stato Carica</p>
-          <div class="charge min">
-          </div>
-        </div>
-
-    </main>
-  </body>
+				<div class="monopattino">
+					<h2><input type="checkbox" /> Monopattino Fede154</h2>
+					<p>Via Mentarini - a 490 metri da te</p>
+					<p>Stato Carica</p>
+					<div class="charge min"></div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
